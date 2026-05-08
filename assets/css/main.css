@@ -414,14 +414,6 @@ input, select, textarea {
 			padding: 2vw;
 		}
 
-		@media screen and (max-width: 736px) {
-
-			#hero-image img {
-				max-width: 20vw;
-				max-height: 20vh;
-			}
-
-		}
 
 /* Header */
 
