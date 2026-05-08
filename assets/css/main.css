@@ -384,6 +384,43 @@ input, select, textarea {
 			width: 1px;
 		}
 
+/* Hero Image */
+
+	#hero-image {
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+		pointer-events: none;
+		line-height: 0;
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		opacity: 1 !important;
+		background: #7EB3CA;
+		border-radius: 6px;
+		overflow: hidden;
+		margin: 2vw;
+	}
+
+		#hero-image img {
+			height: auto;
+			width: auto;
+			max-width: 20vw;
+			max-height: 20vh;
+			padding: 2vw;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#hero-image img {
+				max-width: 20vw;
+				max-height: 20vh;
+			}
+
+		}
+
 /* Header */
 
 	@-moz-keyframes header {
@@ -564,6 +601,10 @@ input, select, textarea {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+		}
+
+		#header p b {
+			font-weight: bold !important;
 		}
 
 		#header nav {
