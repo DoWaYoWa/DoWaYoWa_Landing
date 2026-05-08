@@ -397,8 +397,10 @@ input, select, textarea {
 		-webkit-animation: none !important;
 		-ms-animation: none !important;
 		animation: none !important;
-		opacity: 1 !important;
-		background: #7EB3CA;
+		opacity: 0.8 !important;
+		background: #9cdffc;
+		border: #167097;
+		border-style: solid;
 		border-radius: 6px;
 		overflow: hidden;
 		margin: 2vw;
