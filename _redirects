@@ -1,0 +1,2 @@
+# Redirect root to index.html (Cloudflare Pages default handles this, explicit for safety)
+/ /index.html 200
